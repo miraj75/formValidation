@@ -1,0 +1,44 @@
+body {
+  background: black;
+  color: #ffff;
+}
+
+.otp-box-container h1 {
+  font-size: 60px;
+}
+.otp-box-container {
+  display: flex;
+  flex-direction: column;
+  background: #262626;
+  width: 50%;
+  margin-left: 333px;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 0 0.25rem whitesmoke;
+}
+.otp-box-list {
+  display: flex;
+}
+.otp-box-list .otp-box {
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  margin-right: 5px;
+  box-shadow: 1px 1px 1px 1px teal;
+  border-radius: 5px;
+}
+#generated-otp-id,
+.otp-validate-id {
+  font-size: 50px;
+  font-weight: 700;
+}
+.otp-validate-id.success {
+  border: 1px solid#58dd60;
+  color: green;
+}
+.otp-validate-id.fail {
+  border: 1px solid #e00d0d;
+  color: red;
+}
